@@ -1,0 +1,64 @@
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[2m8:54:55 pm[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "firebase/app" from "src/services/firebase.js". Does the file exist?
+[2m8:54:56 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "firebase/app" from "src/services/firebase.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/acer/Desktop/MED WASTE SMART/src/services/firebase.js[39m:29:66
+[33m  27 |      // optional bare specifiers during `vite serve` (they are external in the
+  28 |      // production build and only installed/needed when Firebase is enabled).
+  29 |      return import(/* @vite-ignore */ "firebase/app").then(({ initializeApp }) => {
+     |                                                                   ^
+  30 |        return import(/* @vite-ignore */ "firebase/auth").then(({ getAuth }) => {
+  31 |          return import(/* @vite-ignore */ "firebase/firestore").then(({ getFirestore }) => {[39m
+      at TransformPluginContext._formatError (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at async file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+[2m9:05:26 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "firebase/app" from "src/services/firebase.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/acer/Desktop/MED WASTE SMART/src/services/firebase.js[39m:29:66
+[33m  27 |      // optional bare specifiers during `vite serve` (they are external in the
+  28 |      // production build and only installed/needed when Firebase is enabled).
+  29 |      return import(/* @vite-ignore */ "firebase/app").then(({ initializeApp }) => {
+     |                                                                   ^
+  30 |        return import(/* @vite-ignore */ "firebase/auth").then(({ getAuth }) => {
+  31 |          return import(/* @vite-ignore */ "firebase/firestore").then(({ getFirestore }) => {[39m
+      at TransformPluginContext._formatError (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at async file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///C:/Users/acer/Desktop/MED%20WASTE%20SMART/node_modules/.pnpm/vite@5.4.21/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+[2m9:08:24 pm[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/acer/Desktop/MED WASTE SMART/src/services/firebase.js[33m
+[0m27 |  const dynImport = (specifier) => import(specifier);
+28 |  
+29 |  // Example only — not called unless USE_MOCK_DATA is false.
+   |               ^^^^^^^^^
+30 |  export const initFirebase = () => {
+31 |    if (!USE_MOCK_DATA) {[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/acer/Desktop/MED WASTE SMART/src/services/firebase.js[39m
+[2m9:10:09 pm[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/acer/Desktop/MED WASTE SMART/src/services/firebase.js[33m
+[0m26 |  const dynImport = (specifier) => import(specifier);
+27 |  
+28 |  // Example only — not called unless USE_MOCK_DATA is false.
+   |              ^^^^^^^^^
+29 |  export const initFirebase = () => {
+30 |    if (!USE_MOCK_DATA) {[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/acer/Desktop/MED WASTE SMART/src/services/firebase.js[39m

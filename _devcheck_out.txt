@@ -1,0 +1,9 @@
+devUp=True
+identify-waste -> 200 text/html
+/waste-example-syringe.svg -> 200 image/svg+xml (1671 B)
+/waste-example-gauze.svg -> 200 image/svg+xml (1637 B)
+/waste-example-plastic.svg -> 200 image/svg+xml (1761 B)
+/waste-example-glass.svg -> 200 image/svg+xml (1375 B)
+/waste-example-general.svg -> 200 image/svg+xml (1423 B)
+classifier-module -> 200
+img-refs: waste-example-gauze.svg, waste-example-general.svg, waste-example-glass.svg, waste-example-plastic.svg, waste-example-syringe.svg

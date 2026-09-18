@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">Broken glass vial</title>
+  <desc id="desc">Illustration of a broken glass vial with shards and a spilled droplet.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- intact vial -->
+  <path d="M 180 90 L 220 90 L 230 250 Q 232 258 220 258 L 180 258 Q 168 258 170 250 Z" fill="#bfdbfe" stroke="#3b82f6" stroke-width="3"/>
+  <rect x="182" y="80" width="36" height="14" rx="4" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+  <!-- liquid -->
+  <rect x="176" y="210" width="48" height="44" rx="4" fill="#60a5fa" opacity="0.8"/>
+  <!-- crack -->
+  <path d="M 200 120 L 196 150 L 206 170 L 198 200" fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round"/>
+  <!-- broken shard -->
+  <path d="M 120 170 L 160 160 L 150 200 Z" fill="#bfdbfe" stroke="#3b82f6" stroke-width="3"/>
+  <path d="M 248 210 L 292 200 L 282 240 Z" fill="#bfdbfe" stroke="#3b82f6" stroke-width="3"/>
+  <!-- droplet -->
+  <path d="M 320 220 Q 340 250 320 260 Q 300 250 320 220 Z" fill="#60a5fa" opacity="0.85"/>
+</svg>

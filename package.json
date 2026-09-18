@@ -1,0 +1,33 @@
+{
+  "name": "medwaste-smart",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart Mobile Medical-Waste Collection and Segregation System",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "html5-qrcode": "^2.1.2",
+    "lucide-react": "^0.436.0",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.0",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.1.0",
+    "autoprefixer": "^10.5.5",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.2",
+    "eslint-plugin-react-hooks": "5.0.0",
+    "globals": "15.0.0",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.19",
+    "vite": "^5.4.2"
+  }
+}

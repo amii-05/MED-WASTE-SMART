@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">Contaminated recyclable plastic</title>
+  <desc id="desc">Illustration of a contaminated plastic bottle with a recycle symbol and a biohazard-like contamination mark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fee2e2"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fecaca"/>
+      <stop offset="1" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- bottle body -->
+  <path d="M 160 120 L 240 120 L 248 250 Q 250 258 240 258 L 160 258 Q 150 258 152 250 Z" fill="url(#bottle)" stroke="#7f1d1d" stroke-width="3"/>
+  <!-- neck -->
+  <rect x="172" y="92" width="56" height="30" rx="6" fill="#dc2626" stroke="#7f1d1d" stroke-width="3"/>
+  <rect x="168" y="84" width="64" height="14" rx="5" fill="#ef4444" stroke="#7f1d1d" stroke-width="3"/>
+  <!-- recycle symbol -->
+  <g transform="translate(200 200) scale(1.1)">
+    <g stroke="#ffffff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 -20 L 17 10 L -17 10 Z"/>
+      <path d="M 15 10 L 5 34 L -15 -6 Z"/>
+      <path d="M -15 -6 L -20 12 L 15 12 Z"/>
+    </g>
+  </g>
+  <!-- contamination mark -->
+  <path d="M 220 120 m -14 0 a 14 14 0 1 1 28 0 a 11 11 0 1 1 -28 0 Z" fill="#facc15" opacity="0.9"/>
+  <text x="220" y="125" text-anchor="middle" font-size="15" font-family="Arial, sans-serif" font-weight="bold" fill="#7f1d1d">!</text>
+</svg>

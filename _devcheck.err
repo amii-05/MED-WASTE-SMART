@@ -1,0 +1,14 @@
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[2m9:46:12 pm[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/acer/Desktop/MED WASTE SMART/src/services/firebase.js[33m
+[0m26 |  const dynImport = (specifier) => import(specifier);
+27 |  
+28 |  // Example only — not called unless USE_MOCK_DATA is false.
+   |              ^^^^^^^^^
+29 |  export const initFirebase = () => {
+30 |    if (!USE_MOCK_DATA) {[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/acer/Desktop/MED WASTE SMART/src/services/firebase.js[39m
